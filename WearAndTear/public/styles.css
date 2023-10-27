@@ -1,0 +1,153 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dict {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 4rem auto;
+}
+.dict>.term {
+    max-width: 20rem;
+    margin: auto 32px;
+    padding: 16px;
+    transition: all 100ms ease-in-out;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .heartt{
+    color: rgb(194, 194, 194);
+  }
+.image {
+    padding-top: 20px;
+    height: 280px;
+    width: 200px;
+}
+.spon{
+    font-family: inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgb(189, 189, 189);
+}
+.title{
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    padding: 0px 0px 5px;
+}
+.color{
+    font-size: 12px;
+    color: #878787;
+    margin: 5px auto;
+}
+.row{
+    display: flex;
+    margin-top: 10px;
+}
+.ratingdiv{
+    line-height: normal;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #388e3c;
+    margin-right: 10px;
+    margin-bottom: 4px
+}
+.avaidiv{
+    color: #878787;
+    font-size: 14px;
+    padding: 0px 0px 0px 5px;
+}
+.badge{
+    margin-left: 10px;
+    height: 21px;
+    width: 77px;
+}
+.costdiv{
+    font-size: 16px;
+    color: #212121;
+
+    font-weight: 700;
+}
+.discountdiv{
+    text-decoration: line-through;
+    color: #878787;
+    font-size: 14px;
+    padding: 0px 0px 0px 8px; 
+    margin-right: 10px;
+}
+.offerdiv{
+    color: #388e3c;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -.2px;
+}
+.freediv{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.savediv{
+    margin-top: 5px;
+    color: rgb(38, 165, 65);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    word-spacing:-2px;
+}
+
+.toptext{
+    margin-top: 5px;
+    padding: 7px;
+    border-radius: 2px;
+    background-color: rgb(233, 222, 255);
+    display: inline-block;
+    color: rgb(112, 72, 198);
+    font-size: 12px;
+    font-weight: 700;
+}
+/* Add a specific style for the "Bestseller" label */
+.bestseller {
+    position: absolute;
+    height: 20px;
+    background: rgb(0, 160, 152);
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.45;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 0px 8px;
+    border-radius: 2px;
+  }
+.bestseller-container {
+    position: relative;
+  }
+  .bestseller {
+    position: absolute;
+    left: -45px;
+  }
+  .hover-div {
+    display: none;
+  }
+  
+  .term:hover .hover-div {
+    display: block;
+  }
+  .checktext{
+    vertical-align: middle;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #212121;
+    cursor: pointer;
+  }
+  .checktext:hover{
+    font-weight: 600;
+  }
+  
